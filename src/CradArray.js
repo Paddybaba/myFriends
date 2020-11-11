@@ -8,10 +8,10 @@ const CardArray = ({image}) =>
             return (
                 <div>
                     <Onerobot   
-                        key = {index}
                         name={image[index].name}
                         id = {image[index].id}
                         email={image[index].email}
+                        key = {index}
                     />
                 </div>
                 
