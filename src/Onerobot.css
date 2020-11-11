@@ -1,0 +1,24 @@
+.container{
+    /* border: 1px rgb(233, 136, 18) solid; */
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+    /* background-image: linear-gradient( rgb(167, 228, 167), rgb(236, 236, 70)) ; */
+    border-radius: 5px;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+    transition: all 300ms ease;
+    box-shadow: grey 3px 3px 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.container:hover{
+    transform: scale(1.05)
+}
+img{
+    border-radius: 5px;
+}

@@ -5,8 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
 
+}
+div{
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px , 1fr));
+  column-gap: 20px;
+  justify-content: space-around;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
